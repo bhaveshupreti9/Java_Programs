@@ -6,9 +6,7 @@ public class one{
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-        float avg = (a+b+c)/3.0f;
-        float cgpa = avg/9.5f;
-        System.out.println("The CGPA is "+cgpa);
+        System.out.println("The sum is "+(a+b+c);
         sc.close();
     }
 }
